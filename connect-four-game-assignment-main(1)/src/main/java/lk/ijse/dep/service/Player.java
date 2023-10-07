@@ -1,14 +1,7 @@
 package lk.ijse.dep.service;
 
-public abstract class Player {
-
+public class Player {
     protected Board board;
-
-    public Player(lk.ijse.dep.service.Board board){}
-
-    public Player() {
-
-    }
-
-    public abstract void movePiece(int i);
+    public Player(Board board) {this.board=board;}
+    public void movePiece(int indexOf) {}
 }
